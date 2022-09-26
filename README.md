@@ -9,7 +9,7 @@ This repo contains some of my solutions to the exercise problems for Go programm
 - Error Handling: https://exercism.org/tracks/go/exercises/error-handling
 - Parallel Letter Frequency: https://exercism.org/tracks/go/exercises/parallel-letter-frequency
 
-#pre-requisite
+# pre-requisite
 - Go installed on the system
 
 # running tests
