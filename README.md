@@ -8,6 +8,7 @@ This repo contains some of my solutions to the exercise problems for Go programm
 - Bank Account: https://exercism.org/tracks/go/exercises/bank-account
 - Error Handling: https://exercism.org/tracks/go/exercises/error-handling
 - Parallel Letter Frequency: https://exercism.org/tracks/go/exercises/parallel-letter-frequency
+- Grade School: https://exercism.org/tracks/go/exercises/grade-school
 
 # pre-requisite
 - Go installed on the system
