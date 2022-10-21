@@ -21,16 +21,27 @@ jobs:
       with:
         go-version: 1.18
         
-    - name: loop
+    - name: test-normal
       run: |
-          myDirectories=("account" "erratum" "grade_school")
+          myDirectories=("account" "erratum" "grade_school", "queen_attack")
       
           for i in "${myDirectories[@]}"
           do
             cd $i
-            ls
             #go build
             go test
+            cd ..
+          done
+          
+    - name: test-benchmark
+      run: |
+          myDirectories=("parallel_letter_frequency" )
+      
+          for i in "${myDirectories[@]}"
+          do
+            cd $i
+            #go build
+            go test -bench .
             cd ..
           done
 
