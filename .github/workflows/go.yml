@@ -23,7 +23,7 @@ jobs:
         
     - name: test-normal
       run: |
-          myDirectories=("erratum" "grade_school" "queen_attack" "react" "simple_linked_list")
+          myDirectories=("qerratum" "grade_school" "queen_attack" "react" "simple_linked_list")
           for i in "${myDirectories[@]}"
           do
             cd $i
