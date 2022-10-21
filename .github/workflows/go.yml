@@ -29,7 +29,7 @@ jobs:
           do
             cd $i
             ls
-            go build
+            #go build
             go test
             cd ..
           done
