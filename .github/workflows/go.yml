@@ -29,6 +29,9 @@ jobs:
           do
             cd $i
             ls
+            go build -v ./...
+            go test -v ./...
+            cd ..
           done
 
     #- name: Build
