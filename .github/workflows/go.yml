@@ -29,8 +29,8 @@ jobs:
           do
             cd $i
             ls
-            go build -v ./...
-            go test -v ./...
+            go build
+            go test
             cd ..
           done
 
