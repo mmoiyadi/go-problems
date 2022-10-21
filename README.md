@@ -1,5 +1,7 @@
 # go-problems
 
+![Build Status](https://github.com/mmoiyadi/go-problems/actions/workflows/go.yml/badge.svg)
+
 This repo contains some of my solutions to the exercise problems for Go programming languages from Exercism
 
 - React: https://exercism.org/tracks/go/exercises/react
