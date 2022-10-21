@@ -23,7 +23,7 @@ jobs:
         
     - name: test-normal
       run: |
-          myDirectories=("account" "erratum" "grade_school" "queen_attack" "react" "simple_linked_list")
+          myDirectories=("erratum" "grade_school" "queen_attack" "react" "simple_linked_list")
           for i in "${myDirectories[@]}"
           do
             cd $i
@@ -35,6 +35,17 @@ jobs:
     - name: test-benchmark
       run: |
           myDirectories=("parallel_letter_frequency" )
+          for i in "${myDirectories[@]}"
+          do
+            cd $i
+            #go build
+            go test -bench .
+            cd ..
+          done
+          
+    - name: test-race
+      run: |
+          myDirectories=("account" )
           for i in "${myDirectories[@]}"
           do
             cd $i
