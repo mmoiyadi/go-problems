@@ -50,7 +50,7 @@ jobs:
           do
             cd $i
             #go build
-            go test -bench .
+            go test -race
             cd ..
           done
 
